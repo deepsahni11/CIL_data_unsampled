@@ -103,7 +103,7 @@ for w in weights:
 #         break
                         
 
-np.save('../Data_metrics_6d_datasets_X_train_unsampled.npy',X_train_datasets_6d_unsampled)
-np.save('../Data_metrics_6d_datasets_X_test_unsampled.npy',X_test_datasets_6d_unsampled)
-np.save('../Data_metrics_6d_datasets_y_train_unsampled.npy',y_train_datasets_6d_unsampled)
-np.save('../Data_metrics_6d_datasets_y_test_unsampled.npy',y_test_datasets_6d_unsampled)
+np.save('../datasets_6d_X_train_unsampled.npy',X_train_datasets_6d_unsampled)
+np.save('../datasets_6d_X_test_unsampled.npy',X_test_datasets_6d_unsampled)
+np.save('../datasets_6d_y_train_unsampled.npy',y_train_datasets_6d_unsampled)
+np.save('../datasets_6d_y_test_unsampled.npy',y_test_datasets_6d_unsampled)
